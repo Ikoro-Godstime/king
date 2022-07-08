@@ -21,7 +21,7 @@ const Home = () => {
     }
     const script = document.createElement("script");
     (script.async = true),
-      (script.src = "//code.jivosite.com/widget/kcPDlcDu6W");
+      (script.src = "//code.tidio.co/8izwkcoea2ynh8qhsvgxuiqjrrpohphi.js");
     document.body.append(script);
   }, []);
 
