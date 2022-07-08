@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import { AdvancedChart, SymbolOverview } from "react-tradingview-embed";
+import { AdvancedChart } from "react-tradingview-embed";
 
 const TradingViews = () => {
   return (
