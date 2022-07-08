@@ -8,6 +8,7 @@ import Reason from "../components/Reason/Reason";
 import Plan from "../components/Plan/Plan";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Questions from "../components/faq/Questions";
+import Forex from "../components/Forex/Forex";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const Home = () => {
     <React.Fragment>
       <Header />
       <About />
-      <Reason />
+      <Forex />
       <Plan />
       <Testimonials />
       <Questions />

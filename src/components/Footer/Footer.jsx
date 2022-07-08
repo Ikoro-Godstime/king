@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 d-flex flex-column mb-5">
               <h3>Contact Info</h3>
-              <p>support@fidelityMarket.com</p>
+              <p>support@smartearnersinvestment.com</p>
               <p>Atlanta,Georgia United States</p>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div> */}
           <div className="text-center mt-3">
             <p>
-              COPYRIGHT © RESVERED Fidelity-Market 2014 -{" "}
+              COPYRIGHT © RESVERED smartearnersinvestment 2014 -{" "}
               {moment(new Date()).format("YYYY")}
             </p>
           </div>

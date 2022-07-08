@@ -6,12 +6,12 @@ const Info = () => {
     <div className="info">
       <div className="info__container">
         <div className="info__title">
-          <h1 className="fw-bolder ">About Fidelity-market</h1>
+          <h1 className="fw-bolder ">About Smart Earners Investment</h1>
         </div>
         <div className="info__about">
           <p className="text-muted">
-            Fidelity-market is your NO. 1 cryptocurrency investment portfolio
-            management system.
+            smart earners investment is your NO. 1 cryptocurrency investment
+            portfolio management system.
           </p>
         </div>
       </div>

@@ -14,16 +14,11 @@ export const links = [
     path: "/contact",
     title: "Contact",
   },
-  {
-    id: 4,
-    path: "#pricing",
-    title: "Price",
-  },
-  {
-    id: 5,
-    path: "/login",
-    title: "Sign In",
-  },
+  // {
+  //   id: 4,
+  //   path: "/faq",
+  //   title: "FAQ",
+  // },
   {
     id: 6,
     path: "/terms",

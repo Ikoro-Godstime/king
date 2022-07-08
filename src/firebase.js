@@ -7,13 +7,12 @@ import { getStorage } from "firebase/storage";
 
 // ? Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCzHMQSQznKkvp5aRwidlurDak7ZlB8pos",
-  authDomain: "fidelitymarket-6e97e.firebaseapp.com",
-  projectId: "fidelitymarket-6e97e",
-  storageBucket: "fidelitymarket-6e97e.appspot.com",
-  messagingSenderId: "768583493113",
-  appId: "1:768583493113:web:2cb509b64b7ebf77968928",
-  measurementId: "G-CW5YLNT4Z4",
+  apiKey: "AIzaSyDAh8uUdd9yX6nZyDxq0upJ88NKLk8Xjvw",
+  authDomain: "smartearnersinvestment-540d9.firebaseapp.com",
+  projectId: "smartearnersinvestment-540d9",
+  storageBucket: "smartearnersinvestment-540d9.appspot.com",
+  messagingSenderId: "893835246703",
+  appId: "1:893835246703:web:e1b6bba1cfb76f71f9e19a",
 };
 
 // ? Initialize Firebase

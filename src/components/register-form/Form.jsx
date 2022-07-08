@@ -114,10 +114,13 @@ const Form = () => {
         uid: user.uid,
       });
       // toast notification
-      toast.success("Welcome to Fidelity-Market Please verify your email", {
-        position: "top-center",
-        theme: "colored",
-      });
+      toast.success(
+        "Welcome to smartearnersinvestment Please verify your email",
+        {
+          position: "top-center",
+          theme: "colored",
+        }
+      );
       // redirect user to login
       navigate("/login");
     } catch (error) {
@@ -149,18 +152,6 @@ const Form = () => {
     <Box className="form">
       <Container maxWidth="sm" sx={{ pt: 4, pb: 8 }}>
         <Paper sx={{ p: 2 }}>
-          <Box>
-            <Link to="/">
-              <Typography
-                variant="h4"
-                component="h1"
-                textAlign="center"
-                sx={{ fontWeight: "bold" }}
-              >
-                Fidelity-Market
-              </Typography>
-            </Link>
-          </Box>
           <Box>
             <Grid container columnSpacing={2} rowSpacing={1}>
               <Grid item xs={12} md={6}>
@@ -263,7 +254,7 @@ const Form = () => {
                 component="p"
                 sx={{ mt: 6, mb: 2 }}
               >
-                © Copyright 2022 Fidelity-Market All Rights Reserved.
+                © Copyright 2022 smartearnersinvestment All Rights Reserved.
               </Typography>
             </Box>
           </Box>

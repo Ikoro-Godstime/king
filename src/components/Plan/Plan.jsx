@@ -12,13 +12,8 @@ const Plan = () => {
       <Box sx={{ mt: 6 }}>
         <Box>
           <Box>
-            <Typography
-              variant="h4"
-              textAlign="center"
-              sx={{ fontWeight: "bold" }}
-              gutterBottom
-            >
-              OUR INVESTMENT PLAN
+            <Typography variant="h4" textAlign="center" gutterBottom>
+              Our Packages
             </Typography>
             <Typography variant="body1" textAlign="center">
               Choose how you want to invest with us.

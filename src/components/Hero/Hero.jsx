@@ -1,6 +1,7 @@
 import React from "react";
-import { FaChevronCircleRight } from "react-icons/fa";
-import { Box, Typography, Button } from "@mui/material";
+import { Link } from "react-router-dom";
+import { Box, Typography, Button, Container, Grid } from "@mui/material";
+import phone from "../../img/phone.png";
 
 import "./hero.css";
 
@@ -11,55 +12,74 @@ const Hero = () => {
         className="hero"
         style={{
           backgroundImage: "url(/img/bg-img.jpg)",
-          height: "50vh",
+          height: "80vh",
           position: "relative",
         }}
       >
         <Box className="hero__overlay">
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              flexDirection: "column",
-              p: 2,
-            }}
-          >
-            <Box sx={{ mt: 3 }}>
-              <Typography
-                variant="h4"
-                component="h1"
-                textAlign="center"
-                sx={{
-                  color: "#fff",
-                  fontWeight: "bold",
-                  textTransform: "uppercase",
-                }}
+          <Container sx={{ mt: 5 }}>
+            <Grid container columnSpacing={3}>
+              <Grid item xs={12} md={8} alignSelf="center">
+                <Box>
+                  <Typography
+                    variant="h3"
+                    color="primary"
+                    gutterBottom
+                    sx={{
+                      textAlign: { xs: "center", md: "left" },
+                      fontWeight: "bold",
+                    }}
+                  >
+                    SMART EARNERS INVESTMENT
+                  </Typography>
+                  <Typography
+                    variant="h6"
+                    gutterBottom
+                    sx={{
+                      color: "#fff",
+                      textAlign: { xs: "center", md: "left" },
+                    }}
+                  >
+                    ONE COMPANY UNLIMITED SOLUTIONS
+                  </Typography>
+                  <Typography
+                    gutterBottom
+                    sx={{
+                      color: "#fff",
+                      textAlign: { xs: "center", md: "left" },
+                    }}
+                  >
+                    We trade on Forex,Cryptocurrencies,Stocks ,Bonds,Futures and
+                    Commodities with the best financial experts. BTC Trades
+                    Nation is highly recognized and reputable around the foreign
+                    exchange market and other financial institutions.
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: { xs: "center", md: "flex-start" },
+                  }}
+                >
+                  <Link to="/register">
+                    <Button>Register</Button>
+                  </Link>
+                  <Link to="/login" style={{ marginLeft: "1rem" }}>
+                    <Button variant="outlined">Sign in</Button>
+                  </Link>
+                </Box>
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                md={4}
+                sx={{ display: { xs: "none", md: "block" } }}
               >
-                Trade in the Moment
-              </Typography>
-            </Box>
-            <Box sx={{ mt: 4 }}>
-              <Typography
-                variant="body1"
-                sx={{ color: "#fff" }}
-                textAlign="center"
-              >
-                Put your investing ideas into action with a full range of
-                investments. Enjoy real benefits and rewards on Online Trade.
-              </Typography>
-            </Box>
-            <Box sx={{ mt: 3 }}>
-              <Button
-                color="primary"
-                variant="contained"
-                endIcon={<FaChevronCircleRight />}
-                sx={{ fontSize: "18px" }}
-                size="large"
-              >
-                Get Started
-              </Button>
-            </Box>
-          </Box>
+                <img src={phone} alt="" />
+              </Grid>
+            </Grid>
+          </Container>
         </Box>
       </Box>
     </>

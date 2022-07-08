@@ -9,29 +9,29 @@ const About = () => {
         <Box>
           <Box>
             <Typography
-              variant="h4"
+              variant="h6"
               component="h2"
               textAlign="center"
               gutterBottom
               sx={{ fontWeight: "bold" }}
             >
-              ABOUT FIDELITY-MARKET
+              Our Advantages
             </Typography>
             <Typography variant="body1" component="p" textAlign="center">
-              fidelity-market is your no 1 cryptocurrency investment portfolio
-              management system
+              smart earner investment is your no 1 cryptocurrency investment
+              portfolio management system
             </Typography>
           </Box>
           <Container sx={{ mt: 3 }}>
             <Grid container spacing={2}>
               {about.map((about) => (
-                <Grid item xs={12} md={3}>
+                <Grid item xs={12} md={4}>
                   <Paper
+                    elevation={0}
                     sx={{
                       p: { xs: 2, md: 3 },
                       display: "flex",
                       flexDirection: "column",
-                      alignItems: "center",
                     }}
                   >
                     <Box sx={{ width: { xs: "10%", md: "20%" } }}>
@@ -39,16 +39,13 @@ const About = () => {
                     </Box>
                     <Box sx={{ mt: 2 }}>
                       <Typography
-                        variant="h6"
-                        textAlign="center"
+                        variant="body1"
                         gutterBottom
-                        sx={{ fontWeight: "bold" }}
+                        sx={{ fontWeight: "bold", textTransform: "uppercase" }}
                       >
                         {about.title}
                       </Typography>
-                      <Typography variant="body1" textAlign="center">
-                        {about.about}
-                      </Typography>
+                      <Typography variant="subtitle1">{about.about}</Typography>
                     </Box>
                   </Paper>
                 </Grid>

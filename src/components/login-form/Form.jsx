@@ -98,19 +98,17 @@ const Form = () => {
 
   return (
     <Box className="form" sx={{ p: { xs: 2, md: 6 } }}>
-      <Container>
+      <Container maxWidth="md">
         <Paper sx={{ p: 2 }}>
           <Box sx={{ mt: 2 }}>
-            <Link to="/">
-              <Typography
-                variant="h4"
-                component="h1"
-                textAlign="center"
-                sx={{ fontWeight: "bold" }}
-              >
-                Fidelity-Market
-              </Typography>
-            </Link>
+            <Typography
+              variant="h4"
+              component="h1"
+              textAlign="center"
+              sx={{ fontWeight: "bold" }}
+            >
+              Login Authentication
+            </Typography>
           </Box>
           <Box>
             <TextField
@@ -163,7 +161,7 @@ const Form = () => {
               component="p"
               sx={{ mt: 6 }}
             >
-              © Copyright 2022 Fidelity-Market All Rights Reserved.
+              © Copyright 2022 smartearnersinvestment All Rights Reserved.
             </Typography>
           </Box>
         </Paper>

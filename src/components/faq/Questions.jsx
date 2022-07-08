@@ -17,12 +17,12 @@ const Questions = () => {
         <Container>
           <Typography
             textAlign="center"
-            variant="h4"
+            variant="h5"
             component="h1"
             gutterBottom
             sx={{ fontWeight: "bold" }}
           >
-            FREQUENTLY ASKED QUESTIONS
+            Frequently Asked Questions
           </Typography>
           <Typography textAlign="center" variant="body1" component="p">
             Our goal is to simplify investing so that anyone can be an investor.
@@ -35,7 +35,7 @@ const Questions = () => {
         {faqs.map((faq) => (
           <Accordion key={faq.id}>
             <AccordionSummary expandIcon={<MdExpandMore />}>
-              <Typography sx={{ fontWeight: "bold" }}>{faq.title}</Typography>
+              <Typography variant="body1">{faq.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography variant="body1">{faq.about}</Typography>

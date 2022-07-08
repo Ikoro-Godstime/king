@@ -16,12 +16,12 @@ export const faqs = [
   },
   {
     id: 5,
-    title: `How does fidelity-market Insurance work and how does it protect miners assets
+    title: `How does smartearnersinvestment Insurance work and how does it protect miners assets
             and machines? `,
     about: `The insurance has a lite token fee and covers everything including
             fees, it gives you 20% of any fee or deposit. The insurance earns
             you tokens that are paid and the application is flexible to enable
             every miner have full access to this funds and take care of his/her
-            fidelity-market maintenance.`,
+            smartearnersinvestment maintenance.`,
   },
 ];
