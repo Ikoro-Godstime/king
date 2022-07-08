@@ -9,7 +9,7 @@ export const test = [
     person: "Sara Wilssons",
     position: "System user",
     testimony:
-      "I must say this platform is indeed amazing. it was a glimpse at first but today i can account for a real trade when it comes to investment on Fidelity Market.",
+      "I must say this platform is indeed amazing. it was a glimpse at first but today i can account for a real trade when it comes to investment on smart earners investment.",
     img: woman,
   },
   {
@@ -17,7 +17,7 @@ export const test = [
     person: "Matt Gibs",
     position: "System user",
     testimony:
-      "I have been a full member of Prime Market for just 2 months and i can confidently testified that it has redefined my approach to trading. it is simple, support is always available and risk is minimal. Thank you fidelity Market for an amazing experience",
+      "I have been a full member of Prime Market for just 2 months and i can confidently testified that it has redefined my approach to trading. it is simple, support is always available and risk is minimal. Thank you smart earners investment for an amazing experience",
     img: person1,
   },
   {
@@ -33,7 +33,7 @@ export const test = [
     person: "Becky Lester Lambert",
     position: "Investor",
     testimony:
-      "I no longer have to worry about sustaining my trades because with fidelity Market - all i do is sit back and stakes. Trusted and legit!",
+      "I no longer have to worry about sustaining my trades because with smart earners investment - all i do is sit back and stakes. Trusted and legit!",
     img: baseball,
   },
 ];
